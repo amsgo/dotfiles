@@ -157,8 +157,7 @@ defaults write com.hegenberg.BetterSnapTool launchOnStartup -int 1
 defaults write com.hegenberg.BetterSnapTool showMenubarIcon -int 0
 
 # Set hotkeys for window management
-PLIST_CONTENT=$(cat better_touch_tool_hotkeys.plist)
-defaults write com.hegenberg.BetterSnapTool registeredHotkeys "$PLIST_CONTENT"
+plutil -replace registeredHotkeys -xml "$(cat better_touch_tool_hotkeys.plist)" ~/Library/Preferences/com.hegenberg.BetterSnapTool.plist
 
 ###############################################################################
 # Kill/restart affected applications                                          #
