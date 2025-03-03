@@ -157,7 +157,7 @@ defaults write com.hegenberg.BetterSnapTool launchOnStartup -int 1
 defaults write com.hegenberg.BetterSnapTool showMenubarIcon -int 0
 
 # Set hotkeys for window management
-defaults import com.hegenberg.BetterSnapTool better_touch_tool_hotkeys.plist
+defaults import com.hegenberg.BetterSnapTool registeredHotkeys better_touch_tool_hotkeys.plist
 
 ###############################################################################
 # Kill/restart affected applications                                          #
