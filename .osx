@@ -15,7 +15,7 @@
 #   2. Store current defaults in file: `defaults read > before`
 #   3. Make a change to your system.
 #   4. Store new defaults in file: `defaults read > after`
-#   5. Diff the files: `diff before after`
+#   5. Diff the files: `diff before after` or `opendiff before after`
 #
 # @see: http://secrets.blacktree.com/?showapp=com.apple.finder
 # @see: https://github.com/herrbischoff/awesome-macos-command-line
@@ -145,6 +145,19 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 
 # Disable in-app rating requests from apps downloaded from the App Store.
 defaults write com.apple.appstore InAppReviewEnabled -int 0
+
+###############################################################################
+# BetterSnapTool                                                              #
+###############################################################################
+
+# Launch on startup
+defaults write com.hegenberg.BetterSnapTool launchOnStartup -int 1
+
+# Hide menu bar icon
+defaults write com.hegenberg.BetterSnapTool showMenubarIcon -int 0
+
+# Set hotkeys for window management
+defaults import com.hegenberg.BetterSnapTool better_touch_tool_hotkeys.plist
 
 ###############################################################################
 # Kill/restart affected applications                                          #

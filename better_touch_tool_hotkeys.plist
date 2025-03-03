@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>0</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>36</integer>
+        <key>modifiers</key>
+        <integer>256</integer>
+    </dict>
+    <key>1</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>42</integer>
+        <key>modifiers</key>
+        <integer>256</integer>
+    </dict>
+    <key>110</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>-1</integer>
+        <key>modifiers</key>
+        <integer>0</integer>
+    </dict>
+    <key>111</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>-1</integer>
+        <key>modifiers</key>
+        <integer>0</integer>
+    </dict>
+    <key>112</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>-1</integer>
+        <key>modifiers</key>
+        <integer>0</integer>
+    </dict>
+    <key>113</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>-1</integer>
+        <key>modifiers</key>
+        <integer>0</integer>
+    </dict>
+    <key>15</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>126</integer>
+        <key>modifiers</key>
+        <integer>8388864</integer>
+    </dict>
+    <key>16</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>125</integer>
+        <key>modifiers</key>
+        <integer>8388864</integer>
+    </dict>
+    <key>2</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>123</integer>
+        <key>modifiers</key>
+        <integer>8388864</integer>
+    </dict>
+    <key>4</key>
+    <dict>
+        <key>keyCode</key>
+        <integer>124</integer>
+        <key>modifiers</key>
+        <integer>8388864</integer>
+    </dict>
+</dict>
+</plist>
+EOF
